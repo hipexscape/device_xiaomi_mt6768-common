@@ -977,7 +977,7 @@ etc/init/init.vtservice.rc
 -framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-base.jar|fa552abc94bb734d857340c2ddd9af550de3a8bf
 -framework/mediatek-telephony-common.jar
 lib/libcomutils.so
 lib/libimsma.so
@@ -997,7 +997,7 @@ lib64/libmtk_vt_wrapper.so
 lib64/libmtkavenhancements.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk|3e619e708d79609c94b455cd5a7cd92579e53646
+-priv-app/ImsService/ImsService.apk|212a94760d581e7bf6a4771a41d8dc08bcd14cd1
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
