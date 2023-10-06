@@ -349,7 +349,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.0.vendor \
-    android.frameworks.sensorservice@1.0
+    android.frameworks.sensorservice@1.0.vendor
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge
