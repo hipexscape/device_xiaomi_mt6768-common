@@ -378,7 +378,7 @@ vendor/lib64/libmtkcam_stdutils.so|1e800f54452dcd813967df5d22ed70e7553c18d4|73d2
 # Charger
 bin/kpoc_charger|f9ee0b714af8c65780d2a24ae1e0dab57e9cd515
 etc/init/kpoc_charger.rc|78e5ceefcbd35490f3959853a07bb3eb6c99f616
-lib/libsysenv_system.so93eb7a2a3440f5e42ef4ff4ae7389c44c7defc8d
+lib/libsysenv_system.so|93eb7a2a3440f5e42ef4ff4ae7389c44c7defc8d
 lib64/libshowlogo.so|15c6fa00d654fdc471af0626b533c37523fd0c2c
 lib64/libsysenv_system.so|35fa66acefe4732b9dfd1fc9a910aa201ca8f6e5
 

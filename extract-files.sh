@@ -97,7 +97,7 @@ function blob_fixup {
         vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service)
             "${PATCHELF}" --replace-needed "android.hardware.power-V1-ndk_platform.so" "android.hardware.power-V1-ndk.so" "${2}"
             ;;
-        lib/libshowlogo.so)
+        lib64/libshowlogo.so)
             "${PATCHELF}" --add-needed "libshim_showlogo.so" "${2}"
             ;;
         lib/libsink.so)
