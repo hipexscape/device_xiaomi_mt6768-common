@@ -249,7 +249,8 @@ on post-fs-data
 
     # Create Audio HAL data directory
     mkdir /data/vendor/audiohal 0771 system audio
-
+    mkdir /data/vendor/audiohal/audio_param 0771 system audio
+   
     # Set SELinux security contexts on upgrade or policy update.
     restorecon_recursive /mnt/vendor/nvdata
 
