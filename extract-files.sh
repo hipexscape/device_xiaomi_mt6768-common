@@ -100,9 +100,6 @@ function blob_fixup {
         lib64/libshowlogo.so)
             "${PATCHELF}" --add-needed "libshim_showlogo.so" "${2}"
             ;;
-        lib/libsink.so)
-            "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
-            ;;
         vendor/lib*/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
             ;;

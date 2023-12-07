@@ -912,8 +912,30 @@ vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 
+# IMS - from TECNO-CK9n UP1A.230620.001
+system_ext/bin/vtservice|eeb08595c53be9d7a69ba5b677b5604f753eab37
+system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
+system_ext/lib64/libcomutils.so|fae6b5fd7628518eaf3e3eadac2133dd83f30839
+system_ext/lib64/libimsma.so|573e9c9f7d6879b7f23f0eb1c2ff12fcad3dd80b
+system_ext/lib64/libimsma_adapt.so|b95939f797ba52d87bb9fa6ebf356e0fb4fcfe56
+system_ext/lib64/libimsma_rtp.so|25b249764ba9df7d89f3af209f38e4cb4993ddb3
+system_ext/lib64/libimsma_socketwrapper.so|5a26aae9eee36b9e5dc8875aa68b20ced2e1b676
+system_ext/lib64/libmtk_vt_service.so|890ddf6c84e1c99c2f575d673570e00c63f9ebe6
+system_ext/lib64/libmtk_vt_wrapper.so|6f6f18d546a98676f7ed725f0acaebc5d6d58471
+system_ext/lib64/libsignal.so|5595f5d7b6e7320572ec05ac199f951d141b516a
+system_ext/lib64/libsink.so|9e1d49a08d3f7bd1cc4508877ca552c8927be8fc
+system_ext/lib64/libsource.so|75cbf8a9741eb2aeb42e0469d00099905b1a797a
+system_ext/lib64/libvcodec_cap.so|834445754d88428b01a8a09fcbc9903b3d15d785
+system_ext/lib64/libvcodec_capenc.so|3b5e76522a7331248c2864493fdade2bdf73c4c3
+system_ext/lib64/libvt_avsync.so|186a5263b1be36e3f5ba47c0e8b40bca48a6b382
+system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|d12f0aef8da477595468df3cebb5fa4f0a8770be
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|cdd9da0a0896031fd034069566bc80c332cdc9c1
+vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
+vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
+
 # IMS
-vendor/bin/hw/vtservice_hidl
 vendor/bin/epdg_wod
 vendor/bin/mtk_pkm_service
 vendor/bin/muxreport
@@ -927,12 +949,10 @@ vendor/etc/init/init.volte_imsm_93.rc
 vendor/etc/init/init.volte_md_status.rc
 vendor/etc/init/init.volte_stack.rc
 vendor/etc/init/init.volte_ua.rc
-vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/muxreport.rc
-vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
@@ -950,8 +970,6 @@ vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
-vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
 vendor/lib64/libipsec_ims_shr.so
@@ -966,11 +984,8 @@ vendor/lib64/libwapi.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # IMS-System
-bin/vtservice
-etc/init/init.vtservice.rc
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
 -framework/mediatek-ims-base.jar
@@ -980,31 +995,11 @@ etc/init/init.vtservice.rc
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar|fa552abc94bb734d857340c2ddd9af550de3a8bf
 -framework/mediatek-telephony-common.jar
-lib/libcomutils.so
-lib/libimsma.so
-lib/libimsma_adapt.so
-lib/libimsma_rtp.so
-lib/libimsma_socketwrapper.so
-lib/libmtk_vt_service.so
-lib/libmtk_vt_wrapper.so
-lib/libmtkavenhancements.so
-lib/libsignal.so
-lib/libsink.so
-lib/libsource.so
-lib/libvcodec_cap.so
-lib/libvcodec_capenc.so
-lib/libvt_avsync.so
-lib64/libmtk_vt_wrapper.so
-lib64/libmtkavenhancements.so
-lib64/libvcodec_cap.so
-lib64/libvcodec_capenc.so
 -priv-app/ImsService/ImsService.apk|212a94760d581e7bf6a4771a41d8dc08bcd14cd1
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Power
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
