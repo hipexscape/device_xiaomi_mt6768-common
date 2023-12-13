@@ -51,6 +51,9 @@ persist.sys.mdlog_dumpback=2
 # MIUI
 persist.miui.extm.enable=1
 
+# Media
+debug.stagefright.c2inputsurface=-1
+
 # Perf
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
