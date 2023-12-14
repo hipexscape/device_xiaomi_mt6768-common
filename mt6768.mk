@@ -84,9 +84,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor
 
-PRODUCT_PACKAGES += \
-    libutils-v32
-
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
@@ -405,6 +402,10 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
+
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
