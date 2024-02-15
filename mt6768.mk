@@ -371,6 +371,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-ScopedWakelock.vendor
 
 PRODUCT_PACKAGES += \
+    libshim_sensors \
     libsensorndkbridge
 
 # Shims
