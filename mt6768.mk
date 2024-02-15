@@ -250,7 +250,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.mediatek-libperfmgr
+    android.hardware.power-service.xiaomi-libperfmgr
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
