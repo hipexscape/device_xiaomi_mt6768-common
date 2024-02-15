@@ -373,6 +373,12 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
+# Tetheroffload
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0.vendor \
+    android.hardware.tetheroffload.control@1.0.vendor \
+    android.hardware.tetheroffload.control@1.1.vendor
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
