@@ -860,7 +860,7 @@ etc/init/init.vtservice.rc
 -framework/mediatek-ims-extension-plugin.jar
 -framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-base.jar|7285e1d04d5b75419a64bd5c01bc56b6da0a2aac
 -framework/mediatek-telephony-common.jar
 lib/libmtk_vt_wrapper.so
 lib/libmtkavenhancements.so
@@ -883,13 +883,11 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/libvsim-adaptor-client.so
 lib64/libvt_avsync.so
+-priv-app/ImsService/ImsService.apk|32874fa90c7ede4b8d6b390d9db3a41592753d75
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-
-# IMS-System - from vnd_fire-user 13 TKQ1.221114.001 V14.0.8.0.TMXMIXM release-keys
--priv-app/ImsService/ImsService.apk|4d6937ded2cf8c1a2f2ed82efabf640cdd5c4c2a
 
 # Power
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
