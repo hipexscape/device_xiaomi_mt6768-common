@@ -408,7 +408,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wpa_supplicant \
     hostapd \
-    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.wifi-service \
     libutils-v32
 
 PRODUCT_COPY_FILES += \
