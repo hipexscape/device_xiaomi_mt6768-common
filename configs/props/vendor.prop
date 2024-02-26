@@ -101,9 +101,6 @@ persist.vendor.connsys.fm_short_antenna_support=1
 # FRP
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
-
 # GNSS
 ro.vendor.system.mtk_mapi_support=1
 ro.vendor.mtk_wapi_support=1

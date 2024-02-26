@@ -436,5 +436,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/core/lmkd/bin/lmkd:$(TARGET_COPY_OUT_SYSTEM)/bin/lmkd \
     $(LOCAL_PATH)/core/lmkd/etc/init/lmkd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/lmkd.rc
 
+# Use FUSE passthrough
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mt6768-common/mt6768-common-vendor.mk)
