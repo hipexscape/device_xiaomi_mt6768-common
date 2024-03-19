@@ -360,6 +360,9 @@ on post-fs-data
     #Fingerprint
     chmod 0666 /dev/goodix_fp
 
+    # WiFi
+    setprop ro.boot.wificountrycode 00
+
     #VideoCodec
     chmod 0660 /dev/vcu
     chown media system /dev/vcu
