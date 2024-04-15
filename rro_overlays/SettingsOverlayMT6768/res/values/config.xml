@@ -19,4 +19,10 @@ Licensed SPDX-License-Identifier: Apache-2.0
          should be either LOW (1) or HIGH (3).
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+
+<!-- Battery health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batteryCalculatedCapacity">/sys/devices/platform/battery/power_supply/bms/charge_full</string>
+    <string name="config_batteryDesignCapacity">/sys/devices/platform/battery/power_supply/bms/charge_full_design</string>
+    <string name="config_batteryChargeCycles">/sys/devices/platform/battery/power_supply/bms/cycle_count</string>
 </resources>
