@@ -100,6 +100,9 @@ persist.vendor.connsys.fm_short_antenna_support=1
 # FRP
 ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # GNSS
 ro.vendor.system.mtk_mapi_support=1
 ro.vendor.mtk_wapi_support=1
@@ -107,6 +110,10 @@ ro.vendor.mtk_wappush_support=1
 ro.vendor.mtk_agps_app=1
 ro.vendor.mtk_gps_support=1
 ro.vendor.mtk_log_hide_gps=0
+
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # IMS
 ro.vendor.md_auto_setup_ims=1
