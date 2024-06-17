@@ -56,5 +56,6 @@
     <string-array name="config_cameraAuxPackageAllowList" translatable="false">
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
+        <item>co.aospa.sense</item>
     </string-array>
 </resources>
