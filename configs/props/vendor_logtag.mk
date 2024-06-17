@@ -278,4 +278,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.MAPI-SocketListener=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.MAPI-CommandProcessor=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RpAudioControl=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.gralloc4=$(VENDOR_LOG_LEVEL)
+    persist.log.tag.gralloc4=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.MDP=$(VENDOR_LOG_LEVEL)
+
