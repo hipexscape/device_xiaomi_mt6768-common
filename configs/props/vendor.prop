@@ -123,7 +123,7 @@ persist.vendor.mims_support=2
 persist.vendor.mtk_wfc_support=1
 persist.vendor.volte_support=1
 persist.vendor.mtk.volte.enable=1
-persist.vendor.vilte_support=1
+persist.vendor.vilte_support=0
 persist.vendor.viwifi_support=1
 
 # MIUI
