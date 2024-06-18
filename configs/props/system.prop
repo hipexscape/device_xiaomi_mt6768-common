@@ -13,6 +13,9 @@ Build.BRAND=MTK
 ro.camera.sound.forced=0
 persist.camera.dualcal.state=-1
 ro.mtk_cam_stereo_camera_support=1
+persist.vendor.camera.privapp.list=com.android.camera,com.google.camera,org.lineageos.aperture
+vendor.camera.aux.packagelist=com.android.camera,com.google.camera,org.lineageos.aperture,co.aospa.sense
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
