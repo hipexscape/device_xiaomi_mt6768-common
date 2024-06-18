@@ -24,6 +24,9 @@ debug.als.logs=1
 config.svi.xml=1
 config.svi.xml.print=1
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # FM Radio
 persist.sys.radio.force_lte_ca=true
 persist.internalAntenna.enable=true
