@@ -10,6 +10,7 @@ vendor.debug.camera.enableMetaMerge			u:object_r:vendor_mtk_camera_prop:s0
 vendor.debug.tpi.                     			u:object_r:vendor_mtk_camera_prop:s0
 persist.vendor.camera.                                  u:object_r:vendor_mtk_camera_prop:s0
 persist.camera.module.                                  u:object_r:vendor_mtk_camera_prop:s0
+camera.clientname                      			u:object_r:vendor_mtk_camera_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp.                                  u:object_r:vendor_fingerprint_prop:s0
