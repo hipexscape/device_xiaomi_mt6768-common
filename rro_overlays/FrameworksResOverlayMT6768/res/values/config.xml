@@ -489,5 +489,9 @@
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
     <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>     
+    <bool name="config_pocketModeSupported">true</bool>
+     
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
+
 </resources>
