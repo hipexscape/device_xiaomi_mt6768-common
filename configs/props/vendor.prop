@@ -91,6 +91,7 @@ vendor.display.svi.config_path=/system/etc/SVIConfig.xml
 persist.vendor.max.brightness=448
 ro.vendor.colorpick_adjust=true
 ro.vendor.cabc.enable=true
+debug.sf.auto_latch_unsignaled=0
 
 # FM Radio
 ro.vendor.builtin_fm_antenna_support=1
