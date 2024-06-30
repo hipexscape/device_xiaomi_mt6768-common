@@ -2,7 +2,6 @@ runtime_resource_overlay {
     name: "CarrierConfigOverlayMT6768",
     theme: "CarrierConfigOverlay",
     certificate: "platform",
-    sdk_version: "current",
     product_specific: true,
     aaptflags: ["--keep-raw-values"]
 }
