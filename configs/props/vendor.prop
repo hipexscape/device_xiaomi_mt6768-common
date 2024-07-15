@@ -164,6 +164,9 @@ ro.vendor.se.type=HCE,UICC
 ro.vendor.mtk_uicc_clf=1
 ro.vendor.mtk_exchange_support=1
 
+# OEM Unlock
+ro.oem_unlock_supported=1
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.radio.msimmode=dsds
