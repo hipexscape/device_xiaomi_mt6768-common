@@ -78,6 +78,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
+# Malloc
+MALLOC_LOW_MEMORY := true
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                   # 2048      * 64   (none)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864         # 65536     * 1024 (mmcblk0p33)
