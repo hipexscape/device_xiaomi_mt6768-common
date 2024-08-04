@@ -92,6 +92,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libutils-v32
 
+PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
