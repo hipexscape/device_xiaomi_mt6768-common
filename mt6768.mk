@@ -93,7 +93,8 @@ PRODUCT_PACKAGES += \
     libutils-v32
 
 PRODUCT_PACKAGES += \
-    libcamera_metadata.vendor
+    libcamera_metadata.vendor \
+    libexif.vendor
 
 # Charger
 PRODUCT_PACKAGES += \
