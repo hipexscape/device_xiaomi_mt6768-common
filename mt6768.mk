@@ -410,6 +410,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/mediatek/libmtkperf_client \
     hardware/lineage/interfaces/power-libperfmgr \
+    vendor/fingerprint/opensource/interfaces \
     $(LOCAL_PATH)
 
 # Tetheroffload
