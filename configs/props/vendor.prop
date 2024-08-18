@@ -144,7 +144,6 @@ ro.vendor.smvr.p2batch.hd=4
 ro.vendor.jpeg_decode_sw_opt=1
 vendor.mtk.vdec.waitkeyframeforplay=7
 ro.vendor.pref_scale_enable_cfg=1
-debug.stagefright.ccodec=1
 
 # MediaTek
 ro.vendor.mediatek.version.branch=alps-mp-r0.mp1.tc8sp2
