@@ -49,6 +49,9 @@ on init
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/top-app/cpus 0-7
 
+# Disable ViWiFi
+    setprop persist.vendor.viwifi_support 0
+
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited
