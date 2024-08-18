@@ -52,6 +52,9 @@ on init
 # Disable ViWiFi
     setprop persist.vendor.viwifi_support 0
 
+# Disable VT support
+    setprop persist.vendor.vt.supported 0
+
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited
