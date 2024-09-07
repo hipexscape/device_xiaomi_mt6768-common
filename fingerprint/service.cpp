@@ -17,12 +17,14 @@ using android::hardware::biometrics::fingerprint::V2_1::IBiometricsFingerprint;
 using android::hardware::biometrics::fingerprint::V2_1::implementation::BiometricsFingerprint;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
+using android::hardware::setMinSchedulerPolicy;
 using android::sp;
 
 int main() {
     android::sp<IBiometricsFingerprint> bio = BiometricsFingerprint::getInstance();
 
     configureRpcThreadpool(1, true /*callerWillJoin*/);
+    setMinSchedulerPolicy(bio, SCHED_NORMAL, -20);
 
     if (bio != nullptr) {
         if (::android::OK != bio->registerAsService()) {
