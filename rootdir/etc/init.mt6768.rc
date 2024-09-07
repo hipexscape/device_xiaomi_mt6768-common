@@ -1105,7 +1105,7 @@ service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
     class core
     oneshot
     
-service charger /system/bin/charger
+service vendor.charger /system/bin/charger
     class charger
     user system
     group system graphics wakelock input
