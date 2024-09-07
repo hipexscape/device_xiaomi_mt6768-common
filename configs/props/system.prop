@@ -16,6 +16,9 @@ ro.mtk_cam_stereo_camera_support=1
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
 vendor.camera.aux.packagelist=org.lineageos.aperture,org.lineageos.aperture.dev,co.aospa.sense
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
