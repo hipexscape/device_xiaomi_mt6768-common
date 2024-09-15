@@ -541,8 +541,8 @@ vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin
 vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
 
-# Firmware - from A145PXXU1AWA3
-vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|9cd0d79cde76a59ddd8545b1621af1176c5f9605
+# Firmware - from A055FXXS5CXG1
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin|8c5d8e93ad8a03c6de5aaaad8ef58d53e75c8378
 
 # FM Radio
 -system_ext/lib64/libfmjni.so:system/lib64/libfmjni.so
