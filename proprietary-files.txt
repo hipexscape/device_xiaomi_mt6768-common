@@ -383,10 +383,6 @@ system_ext/etc/init/kpoc_charger.rc|2ce485c39956849bd2294428d801c3c26ec1c040
 system_ext/lib64/libshowlogo.so|3a9775a2f753282b8b8d172869a59d061b76fcd5
 system_ext/lib64/libsysenv_system.so|41a68fd135204efaf7f4c819e39d7a150dcffd55
 
-# IR
-vendor/lib/hw/consumerir.mt6768.so
-vendor/lib64/hw/consumerir.mt6768.so
-
 # DRM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
