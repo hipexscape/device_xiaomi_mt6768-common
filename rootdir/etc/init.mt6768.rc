@@ -1210,3 +1210,7 @@ on property:odm.audio.typec.status=*
 on property:sys.boot_completed=1
     # Only owner can acces this node
     chmod 440 /proc/net/unix
+
+# Restart C2 service
+on property:sys.boot_completed=1
+    restart android-hardware-media-c2-hal-1-2
