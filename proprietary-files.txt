@@ -990,7 +990,7 @@ vendor/lib/libudf.so|7cdbb5c5c616dbbec6afcd75d5cc41f915ff82d6
 vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 
 # WiFi
-bin/iwpriv
+bin/iwpriv;DISABLE_CHECKELF
 vendor/bin/wlan_assistant
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
