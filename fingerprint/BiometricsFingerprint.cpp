@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 #define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.mt6768"
-#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.1-service.mt6768"
 
 #include <android-base/properties.h>
 
