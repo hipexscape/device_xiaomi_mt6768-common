@@ -9,3 +9,6 @@ get_prop(system_app, vendor_mtk_default_prop)
 # allow system apps to search battery status & bms supply
 allow system_app sysfs_batteryinfo:dir search;
 allow system_app vendor_sysfs_bms_supply:dir search;
+
+# Thermal
+allow system_app sysfs_therm:dir search;
