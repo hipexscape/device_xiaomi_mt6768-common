@@ -24,6 +24,7 @@ debug.svi.logs=1
 debug.als.logs=1
 config.svi.xml=1
 config.svi.xml.print=1
+persist.sys.brightness.low.gamma=true
 
 # FM Radio
 persist.internalAntenna.enable=true
