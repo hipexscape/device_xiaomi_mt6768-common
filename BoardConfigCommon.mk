@@ -79,6 +79,7 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 
 # Malloc
+MALLOC_SVELTE := true
 MALLOC_LOW_MEMORY := true
 
 # Partitions
