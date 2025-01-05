@@ -95,9 +95,6 @@ ro.vendor.builtin_fm_antenna_support=1
 persist.vendor.connsys.fm_chipid=mt6631
 persist.vendor.connsys.fm_short_antenna_support=1
 
-# FRP
-ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
-
 # GNSS
 ro.vendor.system.mtk_mapi_support=1
 ro.vendor.mtk_wapi_support=1
