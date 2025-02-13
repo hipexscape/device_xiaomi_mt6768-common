@@ -9,6 +9,9 @@ debug.cpurend.vsync=false
 ro.audio.silent=0
 audio_para_version=J15S-Audiopara-V20-20200527
 
+# Blur
+ro.launcher.blur.appLaunch=0
+
 # Brand
 Build.BRAND=MTK
 
