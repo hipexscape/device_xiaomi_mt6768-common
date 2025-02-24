@@ -116,6 +116,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_BOARD_PLATFORM := mt6768
 
 # Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
 
