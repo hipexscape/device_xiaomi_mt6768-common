@@ -232,6 +232,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libui-v32
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.stagefright.ccodec=0
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.mt6768
