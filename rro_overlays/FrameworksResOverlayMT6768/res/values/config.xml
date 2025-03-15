@@ -493,4 +493,7 @@
 
     <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
     <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.7</item>
+    
+    <!-- Determines whether the shell features all run on another thread. -->
+     <bool name="config_enableShellMainThread">true</bool>
 </resources>
