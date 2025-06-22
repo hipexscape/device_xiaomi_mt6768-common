@@ -15,7 +15,6 @@ vendor/lib64/libaal_mtk.so
 vendor/lib64/libaalservice.so
 
 # Audio
-vendor/bin/audiocmdservice_atci
 vendor/etc/audio_param/BtInfo_AudioParam.xml
 vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml
 vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml
@@ -177,7 +176,6 @@ vendor/etc/audio_param_ce/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/audio_param_ce/Volume_AudioParam.xml
 vendor/etc/audio_param_ce/Volume_ParamUnitDesc.xml
 vendor/etc/aurisys_param/Speech_AudioParam.xml
-vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/aurisys_config.xml
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/hw/audio.usb.mt6768.so
@@ -648,9 +646,7 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
-vendor/bin/atcid
 vendor/bin/fuelgauged
-vendor/etc/init/atcid.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/nvram_daemon.rc
@@ -670,7 +666,6 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
-vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
@@ -829,8 +824,6 @@ vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
-vendor/bin/md_monitor
-vendor/bin/md_monitor_ctrl
 vendor/bin/netdagent
 vendor/etc/apdb/APDB_MT6768_S01__W2040
 vendor/etc/apdb/APDB_MT6768_S01__W2040_ENUM
@@ -841,7 +834,6 @@ vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.udc_lib.rc
 vendor/etc/init/init_connectivity.rc
-vendor/etc/init/md_monitor.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
@@ -877,7 +869,6 @@ vendor/lib/libmtksysutils.so
 vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
 vendor/lib/libutinterface_md.so
-vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -906,7 +897,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libutinterface_md.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libwo.so
-vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
@@ -976,12 +966,8 @@ vendor/bin/wmt_loader
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/wlan_assistant.rc
-vendor/lib/libapmonitor_vendor.so
-vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
-vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libwifitest.so
-vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so
 vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.2.so
