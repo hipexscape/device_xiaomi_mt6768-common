@@ -125,12 +125,6 @@ on fs
     write /sys/kernel/tracing/trace_marker "E"
     write /proc/bootprof "INIT:Mount_END"
 
-    write /sys/block/zram0/comp_algorithm lz4
-    write /proc/sys/vm/page-cluster 0
-    write /proc/sys/vm/swappiness 60
-    write /sys/kernel/mm/swap/vma_ra_enabled false
-    swapon_all /vendor/etc/fstab.mt6768
-
 on post-fs
     write /proc/bootprof "INIT:post-fs"
 
@@ -682,6 +676,13 @@ on post-fs-data
 
 # End of adding by MTK drivers
 # -----------------------
+
+    # enable zram
+    write /sys/block/zram0/comp_algorithm lz4
+    write /proc/sys/vm/page-cluster 0
+    write /proc/sys/vm/swappiness 60
+    write /sys/kernel/mm/swap/vma_ra_enabled false
+    swapon_all /vendor/etc/fstab.mt6768
 
 on zygote-start
     write /proc/bootprof "INIT:zygote-start"
