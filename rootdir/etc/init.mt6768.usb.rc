@@ -225,6 +225,6 @@ on property:vendor.set.vbus.onoff=*
 	write /sys/module/usb20_host/parameters/vbus_force_on 1
 
 on property:miui.reverse.charge=1
-    write sys/class/power_supply/usb/reverse_chg_otg 1
+    write /sys/class/power_supply/usb/reverse_chg_otg 1
 
 ### PLATFORM VARIANT, cat $rc_file | grep write | sort | grep -vE "android0|usb20_phy" | awk '{print $2}' | uniq ###
