@@ -538,6 +538,7 @@ vendor/firmware/gt9886_firmware_6885b0.bin
 vendor/firmware/gt9886_firmware_6885b1.bin
 vendor/firmware/gt9886_firmware_6885v01.bin
 vendor/firmware/gt9886_firmware_6893v01.bin
+vendor/firmware/lib3a.ccu
 vendor/firmware/mt6631_fm_v1_coeff.bin
 vendor/firmware/mt6631_fm_v1_patch.bin
 vendor/firmware/novatek_ts_fw.bin
