@@ -238,9 +238,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.stagefright.ccodec=0
-
 # USB
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
