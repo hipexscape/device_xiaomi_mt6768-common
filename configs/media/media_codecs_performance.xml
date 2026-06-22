@@ -101,7 +101,6 @@ Only the three quirks included above are recognized at this point:
             <Limit name="measured-frame-rate-720x480" range="47-104" />
             <Limit name="measured-frame-rate-1280x720" range="45-170" />
             <Limit name="measured-frame-rate-1920x1080" range="39-140" />
-            <Limit name="measured-frame-rate-3840x2160" range="20-76" />
         </MediaCodec>
         <!-- Google codec -->
         <MediaCodec name="c2.android.avc.encoder" type="video/avc" update="true">
@@ -148,7 +147,6 @@ Only the three quirks included above are recognized at this point:
             <Limit name="measured-frame-rate-720x480" range="142-803" />
             <Limit name="measured-frame-rate-1280x720" range="75-569" />
             <Limit name="measured-frame-rate-1920x1080" range="69-354" />
-            <Limit name="measured-frame-rate-3840x2160" range="20-45" />
         </MediaCodec>
         <!-- J15S&J19-S code for HQ-195660 by qiankang at 20220318 end -->
         <MediaCodec name="c2.mtk.vpx.decoder" type="video/x-vnd.on2.vp8" update="true">
@@ -162,7 +160,6 @@ Only the three quirks included above are recognized at this point:
             <Limit name="measured-frame-rate-640x360" range="170-373" />
             <Limit name="measured-frame-rate-1280x720" range="89-196" />
             <Limit name="measured-frame-rate-1920x1080" range="55-121" />
-            <Limit name="measured-frame-rate-3840x2160" range="18-40" />
         </MediaCodec>
         <!-- Google codec -->
         <MediaCodec name="c2.android.mpeg4.decoder" type="video/mp4v-es" update="true">
