@@ -508,4 +508,8 @@
          <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
          <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
      </string-array>
+    
+    <!-- Whether or not wcg (wide color gamut) should be enabled on this device,
+         we only enabled it while the device has ability of mixed color spaces composition -->
+    <bool name="config_enableWcgMode">false</bool>
 </resources>
