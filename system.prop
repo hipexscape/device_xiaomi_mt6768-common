@@ -22,17 +22,10 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 config.svi.path=/system/etc/SVIConfig.xml
-debug.svi.logs=1
-debug.als.logs=1
-config.svi.xml=1
-config.svi.xml.print=1
 persist.sys.brightness.low.gamma=true
 
 # FM Radio
 persist.internalAntenna.enable=true
-
-# GPU
-ro.opengles.version=196610
 
 # IMS
 persist.dbg.volte_avail_ovr=1
@@ -50,14 +43,6 @@ persist.sys.mdlog_dumpback=2
 
 # MIUI
 persist.miui.extm.enable=1
-
-# Media
-debug.stagefright.c2inputsurface=-1
-
-# Perf
-ro.mtk_perf_simple_start_win=1
-ro.mtk_perf_fast_start_win=1
-ro.mtk_perf_response_time=1
 
 # RIL
 vendor.rild.libpath=mtk-ril.so
